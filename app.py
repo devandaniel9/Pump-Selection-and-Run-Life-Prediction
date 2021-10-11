@@ -153,7 +153,7 @@ pumps_arr = get_pumps(desired_q)
 data = get_model_input_arr(desired_q, problems, pumps_arr, platform, well, vendor)
 
 # Load Model
-with open('../model/model.sav', 'rb') as file :
+with open('model.sav', 'rb') as file :
     model = pickle.load(file)
 
 # Predict
