@@ -1,4 +1,3 @@
 streamlit==0.79.0
 plotly==4.14.3
-pickleshare==0.7.5
 pandas==1.1.5
